@@ -14,6 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('trangchu',function(){
-	return view('pages.lienhe');
-});
+
+Route::get('trangchu','PagesController@trangchu')->name('trangchu');
+Route::get('lap_gioithieu','PagesController@lap_gioithieu')->name('lap_gioithieu');;
+Route::get('repair','PagesController@repair')->name('repair');;
+Route::get('tintuc','PagesController@tintuc')->name('tintuc');;
+Route::get('lienhe','PagesController@lienhe')->name('lienhe');;
+Route::get('giohang','PagesController@giohang')->name('giohang');;
+
+

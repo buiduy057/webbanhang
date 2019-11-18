@@ -4,28 +4,26 @@
     <div class="content">
     	<div class="content_top">
     		<div class="heading">
-    		<h3>New Products</h3>
+    		<h3>Sony</h3>
     		</div>
-    		<div class="see">
-    			<p><a href="#">See all Products</a></p>
-    		</div>
+    		
     		<div class="clear"></div>
     	</div>
 	      <div class="section group">
 				<div class="grid_1_of_4 images_1_of_4">
-					 <a href="preview.html"><img src="user/images/feature-pic1.jpg" alt="" /></a>
+					 <a href="preview.html"><img src="user/images/slider/laptop1.jpg" alt="" /></a>
 					 <h2>Lorem Ipsum is simply </h2>
 					<div class="price-details">
 				       <div class="price-number">
 							<p><span class="rupees">$620.87</span></p>
 					    </div>
 					       		<div class="add-cart">								
-									<h4><a href="preview.html">Add to Cart</a></h4>
+									<h4><a href="{{route('giohang')}}}">Add to Cart</a></h4>
 							     </div>
 							 <div class="clear"></div>
-					</div>
-					 
+					</div>	 
 				</div>
+
 				<div class="grid_1_of_4 images_1_of_4">
 					<a href="preview.html"><img src="images/feature-pic2.jpg" alt="" /></a>
 					 <h2>Lorem Ipsum is simply </h2>
@@ -66,17 +64,17 @@
 							 <div class="clear"></div>
 					</div>				     
 				</div>
+
 			</div>
+			 <div class="content_right" style="text-align: right;"><a class="btn btn-danger" href="">Xem thêm >></a></div>
 			<div class="content_bottom">
     		<div class="heading">
-    		<h3>Feature Products</h3>
+    		<h3>Asus</h3>
     		</div>
-    		<div class="see">
-    			<p><a href="#">See all Products</a></p>
-    		</div>
+    		
     		<div class="clear"></div>
-    	</div>
-			<div class="section group">
+         	</div>
+		  	<div class="section group">
 				<div class="grid_1_of_4 images_1_of_4">
 					 <a href="preview.html"><img src="images/new-pic1.jpg" alt="" /></a>					
 					 <h2>Lorem Ipsum is simply </h2>
@@ -90,6 +88,7 @@
 							 <div class="clear"></div>
 					</div>
 				</div>
+			
 				<div class="grid_1_of_4 images_1_of_4">
 					<a href="preview.html"><img src="images/new-pic2.jpg" alt="" /></a>
 					 <h2>Lorem Ipsum is simply </h2>
@@ -130,7 +129,10 @@
 					</div>
 				</div>
 			</div>
+			<div class="content_right" style="text-align: right;"><a class="btn btn-danger" href="">Xem thêm >></a></div>
+			
     </div>
  </div>
 </div>
+
 @endsection

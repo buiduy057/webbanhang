@@ -37,7 +37,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   <div class="wrap">
     @include('layout.header')
    </div>
- <div class="main">
+<div class="main">
     <div class="content">
     	<div class="content_top">
     		<div class="back-links">
@@ -47,7 +47,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     	</div>
     	<div class="section group">
 				<div class="cont-desc span_1_of_2">
-				  <div class="product-details">									
+				  <div class="product-details">				
+					<div class="grid images_3_of_2">
+						<div id="container">
+						   <div id="products_example">
+							   <div id="products">
+								<div class="slides_container">
+									<a href="#" target="_blank"><img src="images/productslide-1.jpg" alt=" " /></a>
+									<a href="#" target="_blank"><img src="images/productslide-2.jpg" alt=" " /></a>
+									<a href="#" target="_blank"><img src="images/productslide-3.jpg" alt=" " /></a>					
+									<a href="#" target="_blank"><img src="images/productslide-4.jpg" alt=" " /></a>
+									<a href="#" target="_blank"><img src="images/productslide-5.jpg" alt=" " /></a>
+									<a href="#" target="_blank"><img src="images/productslide-6.jpg" alt=" " /></a>
+								</div>
+								<ul class="pagination">
+									<li><a href="#"><img src="images/thumbnailslide-1.jpg" alt=" " /></a></li>
+									<li><a href="#"><img src="images/thumbnailslide-2.jpg" alt=" " /></a></li>
+									<li><a href="#"><img src="images/thumbnailslide-3.jpg" alt=" " /></a></li>
+									<li><a href="#"><img src="images/thumbnailslide-4.jpg" alt=" " /></a></li>
+									<li><a href="#"><img src="images/thumbnailslide-5.jpg" alt=" " /></a></li>
+									<li><a href="#"><img src="images/thumbnailslide-6.jpg" alt=" " /></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="desc span_3_of_2">
 					<h2>Lorem Ipsum is simply dummy text </h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>					
@@ -103,9 +127,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="product_desc">	
 			<div id="horizontalTab">
 				<ul class="resp-tabs-list">
-					<li>Product Details</li>
-					<li>product Tags</li>
-					<li>Product Reviews</li>
+					<li>Thông số kỹ thuật</li>
+					<li>Gói bảo hành</li>
+					<li>Cam kết</li>
 					<div class="clear"></div>
 				</ul>
 				<div class="resp-tabs-container">

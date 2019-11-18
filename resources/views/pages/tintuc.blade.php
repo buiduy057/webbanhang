@@ -10,6 +10,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <base href="{{asset('')}}">
+<link href="user/css/bootstrap.min.css" rel="stylesheet">
+<link href="user/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="user/css/shop-homepage.css" rel="stylesheet">
+<link href="user/css/my.css" rel="stylesheet">
 <link href="user/css/style.css" rel="stylesheet" type="text/css" media="all"/>
 <script type="user/text/javascript" src="js/jquery-1.7.2.min.js"></script> 
 <script type="user/text/javascript" src="js/move-top.js"></script>
@@ -41,34 +45,46 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="content">
     	<div class="content_top">
     		<div class="back-links">
-    		<p><a href="index.html">Home</a> >>>> <a href="#">Electronics</a></p>
+    		<p><a href="index.html">Home</a> >><a href="#">News</a></p>
     	    </div>
     		<div class="clear"></div>
     	</div>
     	<div class="section group">
 				<div class="cont-desc span_1_of_2">
 				  <div class="product-details">	
-				  <h2 style="color: red">Liên hệ :</h2>
-				  <hr>								
+				  	<h2 style="color: red">Tin tức</h2>
+					<hr>								
 				<div class="desc span_3_of_3">
-					 <p>Thông tin liên hệ của Laptop T&T – <a href="">Bán laptop Đà nẵng </a>:</p>
-                    <p> - Địa chỉ : 11 lê văn sỹ, Tp Đà Nẵng</p>
-                    <p> - Điện thoại: 0386556593</p>
-                    <p> - Facebook: facebook/enterlap/09999</p>
-                    <p> - Email:enterlaptop@gmail.com</p>						
-			</div>
+
+					 <h2 style="color: black"> 1. Thay Phím Laptop Giá Rẻ – Lấy Ngay Tại Đà Nẵng</h2>
+					
+                     <p></p>
+                     <p> Laptop T&T – 484 Núi Thành, Đà Nẵng chuyên thay phím laptop giá rẻ, chính hãng với kinh nghiệm hơn 8 năm cung cấp dịch vụ sửa chữa, vệ sinh, […]</p>
+                      <a class="btn btn-primary" href="">Xem thêm >></a>
+ 
+			   </div>
+			   <div class="desc span_3_of_3">
+					
+					<hr>
+					 <h2 style="color: black"> 2. Thay Phím Laptop Giá Rẻ – Lấy Ngay Tại Đà Nẵng</h2>
+					
+                     <p></p>
+                     <p> Laptop T&T – 484 Núi Thành, Đà Nẵng chuyên thay phím laptop giá rẻ, chính hãng với kinh nghiệm hơn 8 năm cung cấp dịch vụ sửa chữa, vệ sinh, […]</p>
+                      <a class="btn btn-primary" href="">Xem thêm<span class="glyphicon glyphicon-chevron-right"></span></a>
+ 
+			 </div>
+             <div class="content-pagenation" style="text-align: center;">
+					<li><a href="#">Frist</a></li>
+					<li class="active"><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><span>....</span></li>
+					<li><a href="#">Last</a></li>
+					<div class="clear"> </div>
+				</div>	
 			<div class="clear"></div>
-		  </div>
-	
-	    <script type="text/javascript">
-    $(document).ready(function () {
-        $('#horizontalTab').easyResponsiveTabs({
-            type: 'default', //Types: default, vertical, accordion           
-            width: 'auto', //auto or any width like 600px
-            fit: true   // 100% fit in a container
-        });
-    });
-   </script>		
+		   </div>
+		
    <div class="content_bottom">
     		<div class="heading">
     		<h3>Related Products</h3>
@@ -80,7 +96,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     	</div>
    <div class="section group">
 				<div class="grid_1_of_4 images_1_of_4">
-					 <a href="#"><img src="images/new-pic1.jpg" alt=""></a>					
+					 <a href="#"><img src="user/images/new-pic1.jpg" alt=""></a>					
 					<div class="price" style="border:none">
 					       		<div class="add-cart" style="float:none">								
 									<h4><a href="#">Add to Cart</a></h4>
@@ -134,47 +150,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				       <li><a href="#">Toys, Kids &amp; Babies</a></li>
     				</ul>
     				<div class="subscribe">
-    					<h2>Newsletters Signup</h2>
-    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.......</p>
+    					<h2>Đăng nhập </h2>
 						    <div class="signup">
 							    <form>
 							    	<input type="text" value="E-mail address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail address';"><input type="submit" value="Sign up">
 							    </form>
 						    </div>
       				</div>
-      				 <div class="community-poll">
-      				 <h2>Đăng nhập </h2>
-      				 	<div class="poll">
-      				 		<form>
-      				 			<ul>
-									<li>
-									<input type="radio" name="vote" class="radio" value="1">
-									<span class="label"><label>More convenient shipping and delivery </label></span>
-									</li>
-									<li>
-									<input type="radio" name="vote" class="radio" value="2">
-									<span class="label"><label for="vote_2">Lower price</label></span>
-									</li>
-									<li>
-									<input type="radio" name="vote" class="radio" value="3">
-									<span class="label"><label for="vote_3">Bigger choice</label></span>
-									</li>
-									<li>
-									<input type="radio" name="vote" class="radio" value="5">
-									<span class="label"><label for="vote_5">Payments security </label></span>
-									</li>
-									<li>
-									<input type="radio" name="vote" class="radio" value="6">
-									<span class="label"><label for="vote_6">30-day Money Back Guarantee </label></span>
-									</li>
-									<li>
-									<input type="radio" name="vote" class="radio" value="7">
-									<span class="label"><label for="vote_7">Other.</label></span>
-									</li>
-									</ul>
-      				 		</form>
-      				 	</div>
-      				 </div>
+      				
  				</div>
  		</div>
  	</div>
