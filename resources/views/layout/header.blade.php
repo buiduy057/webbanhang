@@ -54,7 +54,7 @@
      			</ul>
 	     	</div>
 	     	<div class="search_box">
-	     		<form action="{{route('timkiem')}}" method="POST">
+	     		<form action="{{route('timkiem')}}" method="GET">
 	     			@csrf
 	     			<input type="text" name="timkiem" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}"><input type="submit" value="">
 	     		</form>

@@ -52,19 +52,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
    <div class="content_bottom">
     		<div class="heading">
     		<h3>Tìm kiếm</h3>
-    		<p>Tìm thấy:{{count($product)}} sản phẩm </p>
+    		<br>
+    		<p>Tìm thấy: {{count($timkiem)}} sản phẩm </p>
     		</div>
     		<div class="clear"></div>
     	</div>
    <div class="section group">
-   	          @foreach($timkiem as $sp)
+   	          @foreach($timkiem as $tk)
 				<div class="grid_1_of_4 images_1_of_4">				
 					<div class="price" style="border:none">
-			       		<a href="preview.html"><img src="{{asset($sp->link)}}" alt="" /></a>
-							<h2>{{$sp->name}}</h2>
+			       		<a href="preview.html"><img src="{{asset($tk->link)}}" alt="" /></a>
+							<h2>{{$tk->name}}</h2>
 							<div class="price-details">
 	 					<div class="price-number">
-	 						<p><span class="rupees">{{number_format($sp->price)}} ₫</span></p>
+	 						<p><span class="rupees">{{number_format($tk->price)}} ₫</span></p>
 	 					</div>
 	 					<div class="add-cart">								
 	 						<h4><a href="{{route('giohang')}}}">Add to Cart</a></h4>
